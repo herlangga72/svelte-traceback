@@ -14,7 +14,7 @@ code {
 
 <div class="text-white w-full h-full">
     <h3 class="p-3 text-2xl font-bold">Error Log</h3>
-    <pre class="m-5">
+    <pre class="m-5 p-3 rounded-md">
         <code>
             {@html code}
         </code>
