@@ -12,9 +12,9 @@
         htmlContent = marked(code);
     }
 </script>
-<h3 class="p-3 text-2xl font-bold">Error Log</h3>
-<pre class="p-5">
-  {@html htmlContent}
-</pre>
-
-<!-- Load function to get query parameter -->
+<div class="text-white w-full h-full">
+    <h3 class="p-3 text-2xl font-bold">Error Log</h3>
+    <pre class="m-5">
+        <code data-language="python" class="bg-stone-800 p-8 block text-sm">{code}</code>
+    </pre>
+</div>
